@@ -1,0 +1,1393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"su",
+				"submit\t.submit()"
+			],
+			[
+				"eac",
+				"each\t.each()"
+			],
+			[
+				"bac",
+				"background\t(sidebar.less)"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"max-",
+				"max-height\t(list.less)"
+			],
+			[
+				"tra",
+				"transition\t(sidebar.less)"
+			],
+			[
+				"ovel",
+				"overflow\t(list.less)"
+			],
+			[
+				"bosx",
+				"box-shadow"
+			],
+			[
+				"back",
+				"backups\tfilters.js"
+			],
+			[
+				"resi",
+				"resize\t.resize()"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r($admin\t(index.php)"
+			],
+			[
+				"light",
+				"lighten\tlighten()"
+			],
+			[
+				"category",
+				"category_menu\t(main.scss)"
+			],
+			[
+				"coun",
+				"count_rooms"
+			],
+			[
+				"price_e",
+				"price_euro\t(actions.php)"
+			],
+			[
+				"show",
+				"show_etalon"
+			],
+			[
+				"price_",
+				"price_usd\t(actions.php)"
+			],
+			[
+				"read",
+				"ready\tjQuery(document).ready"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"cl",
+				"cl\tconsole.log"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"prope",
+				"property\t(main.js)"
+			],
+			[
+				"re",
+				"ready\t$(document).ready"
+			],
+			[
+				"date",
+				"dateHeight"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"ico-",
+				"ico-search.png\t(main.scss)"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"lang-",
+				"lang-eng.png\tw:25 h:15"
+			],
+			[
+				"lan",
+				"lang-rus.png\tw:25 h:15"
+			],
+			[
+				"ea",
+				"each\t$.each()"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"bro",
+				"brown-wth-border"
+			],
+			[
+				"ho",
+				"servicecat-homerepair.png\tw:31 h:31"
+			],
+			[
+				"fi",
+				"find\t.find()"
+			],
+			[
+				"ico-pa",
+				"ico-pay-visa.png\tw:50 h:30"
+			],
+			[
+				"logo",
+				"logoHeight"
+			],
+			[
+				"eleme",
+				"elementWidth"
+			],
+			[
+				"fade",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"thu",
+				"thumb_width"
+			],
+			[
+				"first",
+				"firstLevelHref"
+			],
+			[
+				"ha",
+				"hamburger-close.png\tw:58 h:59"
+			],
+			[
+				"active",
+				"active-li"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"hea",
+				"header.png\tw:1250 h:150"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			],
+			[
+				"fa",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"mail",
+				"mailupload.php"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"lisp-i\tlist-style-position: inside;"
+			],
+			[
+				"bgz",
+				"bgsz-ct\tbackground-size: contain;"
+			],
+			[
+				"ff",
+				"ff-a\tfont-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"td",
+				"td-l\ttext-decoration: line-through;"
+			],
+			[
+				"border-co",
+				"border-collapse"
+			],
+			[
+				"la",
+				"last-child  (pseudo-class)"
+			],
+			[
+				"border",
+				"border-image: "
+			],
+			[
+				"bord",
+				"border-image:   (property)"
+			],
+			[
+				"n",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"trs",
+				"trs\ttransition: ${1:prop} ${2:time};"
+			],
+			[
+				"imp",
+				"@import\t@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms\t-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nWordPress Completions\n---------------------\n\n  Version 4.9.6+1.0\n  -----------------------------------------\n  \n  WordPress 4.9.6\n",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "html/page.html",
+			"settings":
+			{
+				"buffer_size": 27677,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 336.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"backup",
+				"AutoBackups: Open file backup"
+			],
+			[
+				"auto",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"emme",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SASS to current type"
+			],
+			[
+				"emmet",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet enc",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet en",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tor",
+				"TortoiseSVN: Commit"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+			"restart",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Works/Verstka/beonspeak.com",
+		"/D/Works/Verstka/beonspeak.com/html"
+	],
+	"file_history":
+	[
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Snippets.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/shortcodes/sign-up.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Fields/Text.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Fields/Textarea.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/RequestReportAboutPersonalData.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/signup.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/template-manage-personal-data.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/include.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Cache.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Config.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Exception.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/GFAPI.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Hosters.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/MobileDetect.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Utils.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/RequestAutoScalableClusteredSolutions.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/template-free-trial.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/header.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/header.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/footer.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/page.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/Manage-your-personal-data-template.php",
+		"/D/Jelastic/jelastic-wordpress/wp-jelastic.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/template-request-auto-scalable-cluster.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/Docker-page-template.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/includes/jelastic/GFCustom.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/template-pricing-page.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/gforms/fields/hosters.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/shortcodes/bigbutton.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/includes/header-search.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/about-events.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/template/app.ejs",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/template/hoster.ejs",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/template-signin.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/Gruntfile.js",
+		"/D/Jelastic/jelastic-wordpress/forms.js",
+		"/C/Users/vantoniuk/AppData/Local/Temp/scp30839/var/www/webroot/ROOT/wp-content/jelastic/classes/Forms/Fields/Text.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Fields/Checkbox.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Fields/Radio.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/install-app-page.min.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/install-app-page.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/hoster-landing.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/shortcodes/slider.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/shortcodes/testimonials.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/includes/jelastic/function.php",
+		"/D/Jelastic/jelastic-wordpress/wp-config.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/includes/js/prettyPhoto.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/includes/js/nectar-slider.js",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/js/script.js",
+		"/C/Users/vantoniuk/AppData/Local/Temp/scp30224/var/www/webroot/ROOT/wp-jelastic.php",
+		"/C/Users/vantoniuk/AppData/Local/Temp/scp30878/var/www/webroot/ROOT/sxd/cfg.php",
+		"/D/Cloud/Dropbox/Desktop/Jelastic_2018_05_16_1526506012_faabee5_wpdb.sql",
+		"/D/Jelastic/jelastic-wordpress/wp-content/themes/salient/assets/js/gform-customs.js",
+		"/C/Users/vantoniuk/AppData/Local/Temp/scp58100/var/www/webroot/ROOT/wp-content/jelastic/classes/Forms/Fields/Checkbox.php",
+		"/C/Users/vantoniuk/AppData/Local/Temp/scp55001/var/www/webroot/ROOT/wp-content/jelastic/classes/Forms/Fields/Textarea.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Form.php",
+		"/D/Jelastic/jelastic-wordpress/wp-content/jelastic/classes/Forms/Profitbrick4Hosters.php",
+		"/D/Jelastic/jelastic-wordpress-bck/wp-content/jelastic/classes/Forms/Fields/Checkbox.php",
+		"/D/Jelastic/jelastic-wordpress/wp-config-sample.php",
+		"/D/Jelastic/jelastic-wordpress/jelastic-wordpress.sublime-project",
+		"/C/Users/vantoniuk/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-2/wp-config.php",
+		"/D/Downloads/aloha_spa.sql",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/dropbox.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/orderselectorinput.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/variables.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/Gruntfile.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/top-block.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/ordering.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/main.less",
+		"/D/Cloud/Dropbox/Soft/SublimeText3/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/sidebar.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/details.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controller.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/list.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/index.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/infoblock.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/currency.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/topBlock.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/topBlock.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/header.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/sidebar.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/stars.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/footer.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/ordering.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/list.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/binding/hint.less",
+		"/D/Главная.html",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/currency.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/data/hosters.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/feedback.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/index.html",
+		"/D/Works/Verstka/wp-framework/assets/js/scripts.js",
+		"/C/Users/vantoniuk/AppData/Local/Temp/Rar$DIa21436.16293/object-cache.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/base.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/header.ejs",
+		"/D/Works/Verstka/wp-framework/assets/scss/_media.scss",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/loaction.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/hosters.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/list.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/JData.js",
+		"/D/Works/Verstka/wp-vozlemorya/wordpress/wp-content/themes/wp-vozlemorya/front-page.php",
+		"/D/Jelastic/jelastic-site/wp-content/themes/salient/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-site/wp-content/themes/salient/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient323/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient323/Gruntfile.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/filters.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/dockerSupport.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/onmutate.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/hint.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/exttpl.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/backup.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/data/hostersDockerS.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/map.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/navigator.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/order.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/price.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/topBlock.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/app/Data/Hosters.class.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/api/refreshHosters.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/snippet/loading.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/package.json",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/crontab.txt",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/signup.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"D:\\Jelastic\\jelastic-wordpress\\wp-content\\themes\\salient",
+			"D:\\Jelastic\\jelastic-site-apps\\app-jelastic-cloud-union\\src\\main\\client-script\\src\\assets\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$hosterSelect",
+			"hosters-select",
+			"hoster-checker-btn",
+			"hosters-select",
+			"RequestReportAboutPersonalData",
+			"wp-co",
+			" echo '<li><a href=\"\">No menu assigned!</a></li>';",
+			"GetUserCountry",
+			"send_notifications",
+			"checkFraudEmail",
+			"response",
+			"consol",
+			"hosters-arrow.pn",
+			"wp-content/themes/salient/assets/",
+			"templa",
+			"getHosters()",
+			"preloader",
+			"hoster-item",
+			"separator",
+			"23022018.demo.jelastic.com",
+			"15032018-site.demo.jelastic.com",
+			"CSS_SENDING",
+			"cssSending",
+			"CSS_SENDING",
+			"validate",
+			"isRequired",
+			"bRequired",
+			"consol",
+			"popover",
+			"This field is required",
+			"name",
+			"has-palceholder",
+			"place",
+			"id",
+			"onSubmit",
+			"fnSubmit",
+			"beforesubmit",
+			"checkbox",
+			"disabled-form--check",
+			"submi",
+			"gfc-form-field",
+			"class=",
+			"getClass",
+			"class",
+			"css",
+			"name",
+			"clas",
+			"type",
+			"\n            ",
+			"attrs",
+			"customized",
+			"input",
+			"radio",
+			"getFieldAttrs",
+			"attrs",
+			"name",
+			"gfc-form-field",
+			"aloha.local",
+			".order-selector--input",
+			"value",
+			"triggerCls",
+			"select",
+			"Checked",
+			"select",
+			"value",
+			"select",
+			"order-selector",
+			"SetWidth",
+			".hoster-info",
+			".ordering",
+			".thin-blue-line ",
+			"map",
+			"top-block-row",
+			"currency-trigger",
+			"currency-item",
+			"ChangeFiltersSize",
+			"opened",
+			"thin-blue-line",
+			"topblock-after",
+			"ko-hint",
+			".stars-filter",
+			".filter",
+			"\t",
+			"ordering",
+			".aside-column",
+			"has-hint",
+			"before",
+			"CurrencyTriggerMove",
+			"before",
+			"after",
+			".has-hint",
+			"'Sort By'",
+			"filters",
+			".mobile-apply",
+			".order-selector--",
+			".order-selector--input",
+			"'Sort By'",
+			"Только свежая, качественная продук",
+			"col-order-elements--open",
+			"order-selector--input",
+			"currency-trigger",
+			"order-selector--inputssss",
+			"ordering--sorting",
+			".order-selector--input",
+			"recommended-text",
+			"red",
+			"ordering ",
+			"hosters-list--list",
+			"windowHeight",
+			".aside-column",
+			".top-block-row",
+			"filters",
+			"col-order-elements",
+			"ordering--sorting",
+			"id",
+			"bigbutton",
+			"controller",
+			"hoster-info",
+			"45px",
+			".col-order-elements",
+			"top-block-row",
+			"less",
+			"csso",
+			"sSourceBuildVer",
+			"demo",
+			"/base.min.cs",
+			"demo",
+			".order-selector--input"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"wordpress-form.demo.jelastic.com",
+			"demo.saitobaza.ru",
+			"  ",
+			"    ",
+			"demo7.saitobaza.ru",
+			"",
+			"  ",
+			"",
+			"demo_files",
+			"  ",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/js/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"(../img",
+			"url(\"../fonts",
+			"  ",
+			"",
+			"font-family: 'EuropeCond';",
+			"font-family: 'EuropeCond'",
+			"'../fonts/hinted",
+			"",
+			"superheading",
+			"src=\"<?php echo get_template_directory_uri(); ?>/js/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			" ",
+			"",
+			"'pfdintextcomppro'",
+			"pfdintextcomppro",
+			"pfdintextcomppro-xthin-webfont.",
+			"pfdintextcomppro-thin-webfont.",
+			"pfdintextcomppro-regular-webfont.",
+			"pfdintextcomppro-medium-webfont.",
+			"pfdintextcomppro-light-webfont.",
+			"$font-path",
+			"pfdintextcomppro-bold-webfont",
+			"  ",
+			"col-xl-12 col-lg-12 col-md-12",
+			"col-xl-2 col-lg-2 col-md-2",
+			"col-xl-4 col-lg-4 col-md-4",
+			"-xl-",
+			"  ",
+			"$gray-dark",
+			"$base-block-shadow",
+			"<li>",
+			"url('../fonts/",
+			"url('../fonts/h",
+			"\"../img/",
+			"?lang=pl",
+			"",
+			"src=\"img",
+			"../img/DayBotRight.png",
+			"../img/DayBotLeft.png",
+			"../img/DayTopRight.png",
+			"../img/DayTopLeft.png",
+			"../img/awwwards_sotd_green_right2x.png",
+			"../img/awwwards_sotd_green_left2x.png",
+			"../img/awwwards_sotd_white_right2x.png",
+			"../img/awwwards_sotd_white_left2x.png",
+			"../img/awwwards_sotd_black_right2x.png",
+			"../img/awwwards_sotd_black_left2x.png",
+			"../img/awwwards_sotd_green_right.png",
+			"../img/awwwards_sotd_green_left.png",
+			"../img/awwwards_sotd_white_right.png",
+			"../img/awwwards_sotd_white_left.png",
+			"../img/awwwards_sotd_black_right.png",
+			"../img/awwwards_sotd_black_left.png",
+			"../img/loader.gif",
+			"../img/mobile/bg_pad.jpg",
+			"../fonts",
+			"",
+			"<script src=\"js",
+			"  ",
+			"",
+			"  ",
+			".php",
+			"наши работы",
+			"url('../fonts/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"topg--item-chart tooltip\" data-tooltip-content=\"#topg--item-charts\">",
+			"topg--item-reviews tooltip\" data-tooltip-content=\"#topg--item-reviews\"",
+			"Суммарный показатель компетентности",
+			"item-circle tooltip\" title=\"Суммарный показатель\nкомпетентности\" ",
+			"В избранное",
+			"<span title=\"This is my span's tooltip message!\" class=\"topg--item-fav tooltip\"></span>",
+			"widget--rating-chart-",
+			"header--title",
+			"<h5 class=\"widget--recomend-name\">",
+			"<span class=\"topg--item-fav\"></span>",
+			"<a href=\"#\">Услуги сантехника</a><a href=\"#\">Помощь по хозяйству</a>",
+			"href=\"#\"",
+			"</span>\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                <span class=\"widget--servicecat-img\">",
+			"name",
+			"circles-4",
+			"circles-3",
+			"circles-2",
+			"circles-1",
+			"Компания",
+			"\"topg--item topg--item-lister\"",
+			"style=\"background-image: url(img/content/whatoffer",
+			"circles-8",
+			"circles-7",
+			"circles-6",
+			"circles-5",
+			"circles-4",
+			"circles-3",
+			"circles-2",
+			"circles-1",
+			"            <div class=\"topg--item-rating\">\n              <div class=\"topg--item-chart\">\n                <span class=\"topg--item-chart-p\"></span>\n                <span class=\"topg--item-chart-n\"></span>\n                <span class=\"topg--item-chart-m\"></span>\n              </div>\n              <div class=\"topg--item-circle\" id=\"circles-1\"></div>\n              <div class=\"topg--item-reviews\">\n                Отзывы:\n                <span class=\"topg--item-reviews-p\">15</span>\n                <span class=\"topg--item-reviews-n\">20</span>\n                <span class=\"topg--item-reviews-m\">10</span>\n              </div><!-- /.topg--item-reviews -->\n            </div>",
+			"<span>Свободен</span></span>",
+			"Онлайн</span>",
+			"<span>Открыто</span></span>",
+			"<span>Закрыто</span></span>",
+			"<span>Онлайн</span></span>",
+			"<span>Занят</span></span>",
+			"</a><!-- popular-cats--item-c -->",
+			"<a href=\"#\" class=\"popular-cats--item-c\">",
+			"          </span><!-- popular-cats--item-c -->\n        </div><!-- /.col-md-4 popular-cats--item -->",
+			"        <div class=\"col-md-4 popular-cats--item\">\n          <span class=\"popular-cats--item-c\">\n            <span>",
+			"p>",
+			"<span>купить</span><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>",
+			"col-md-12 col-sm-12 ",
+			"http://forvk.ru/windowplast/",
+			"",
+			"choise-pay-",
+			"url('../fonts/",
+			"../img/sprite3.png",
+			"../img/opc-ajax-loader.gif",
+			"../img/bg_x.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/page.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 27677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": "beonspeak.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Working\\develop\\verstka\\hotels24-blog\\hotels24-blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 399.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
