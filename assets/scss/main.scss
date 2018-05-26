@@ -1,123 +1,74 @@
-@import "import/reset";
-@import "import/variables";
-@import "import/buttons";
-@import "import/forms";
-@import "import/lists";
-@import "import/tables";
-@import "import/mixin";
-@import "import/wordpress";
+@import "oldsite/bootstrap";
+@import "oldsite/responsive";
+@import "oldsite/camera";
+@import "oldsite/style";
+@import "oldsite/owl.carousel";
+@import "oldsite/owl.theme";
+@import "oldsite/font-awesome";
+@import "oldsite/cherry-plugin";
+@import "oldsite/lazy-load";
+@import "oldsite/styles";
+@import "oldsite/main-style";
+@import "oldsite/magnific-popup";
+@import "oldsite/css";
+@import "oldsite/css_1";
+@import "oldsite/css_2";
 
-@import 'grid/bootstrap-grid';
+h1 {
+  font: bold 29px/29px Ubuntu;
+  color: #403d5a;
+}
 
-@import "gulp_png_sprite";
+h2 {
+  font: bold 29px/29px Ubuntu;
+  color: #403d5a;
+}
 
+h3 {
+  font: bold 29px/29px Ubuntu;
+  color: #403d5a;
+}
+
+h4 {
+  font: bold 29px/30px Ubuntu;
+  color: #403d5a;
+}
+
+h5 {
+  font: bold 18px/18px Ubuntu;
+  color: #403d5a;
+}
+
+h6 {
+  font: normal 12px/18px Ubuntu;
+  color: #333333;
+}
 
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  font-weight: $fnorm;
-  line-height: $base-line-height;
-  min-width: 320px;
-  transition: $base-transition;
-  color: $base-font-color;
-  background-color: $base-background-color;
-  -webkit-font-smoothing: antialiased;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $heading-font-family;
-  font-size: $base-font-size;
-  line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
-}
-p,
-pre {
-  margin: 0 0 $small-spacing;
-}
-a {
-  transition: $base-transition;
-  text-decoration: none;
-  color: $action-color;
-  &:active,
-  &:focus,
-  &:hover {
-    color: darken($action-color, 15%);
-  }
-  &:active,
-  &:focus {
-    color: lighten($action-color, 15%);
-    outline: none;
-  }
-}
-hr {
-  margin: $base-spacing 0;
-  border-top: none;
-  border-right: none;
-  border-bottom: $base-border;
-  border-left: none;
-}
-img,
-picture {
-  max-width: 100%;
-  margin: 0;
-}
-.wrapper {
-  position: relative;
-  width: 100%;
-  height: auto !important;
-  height: 100%;
-  min-height: 100%;
-  margin: 0 auto;
-
-  @extend .clearfix;
-}
-.container {
-  position: relative;
-  max-width: $width;
+  font-weight: normal;
 }
 
-header {
-  background-color: $gray-light;
-  .header--logo {
+.logo_h__txt,
+.logo_link {
+  font: bold 30px/40px Ubuntu;
+  color: #403d5a;
+}
+
+.sf-menu>li>a {
+  font: normal 13px/18px Ubuntu;
+  color: #6f6f6f;
+}
+
+.nav.footer-nav a {
+  font: normal 12px/18px Arial, Helvetica, sans-serif;
+  color: #a7a6b3;
+}
+
+@media(max-width: 767px) {
+  .sf-menu {
+    display: none;
+  }
+  .select-menu {
     display: block;
-    img {
-      max-width: 100%;
-    }
   }
 }
-nav {
-  ul {
-    @extend .clearfix;
-    li {
-      display: inline-block;
-    }
-  }
-}
-
-section {
-  padding: 0 0 $footer;
-}
-article {
-  @extend .clearfix;
-}
-.looper {
-  @extend .clearfix;
-}
-
-
-footer {
-  height: $footer;
-  margin: $footer_margin auto 0;
-  background-color: $gray-light;
-}
-
-
-@import "media";
-
-@import "fonts/font_roboto";
-@import "import/base64";
-@import "import/print";
