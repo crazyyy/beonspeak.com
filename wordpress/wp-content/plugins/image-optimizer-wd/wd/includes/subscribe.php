@@ -79,7 +79,7 @@ class TenWebSubscribe
 
                 $data["email"] = $admin_data->data->user_email;
                 $data["wp_version"] = get_bloginfo('version');
-                $data["product_id"] = $wd_options->wd_plugin_id;
+                $data["product_id"] = $wd_options->plugin_id;
                 $data["all_plugins"] = json_encode($all_plugins);
 
 

@@ -97,18 +97,43 @@ function oa_social_login_callback ()
 						}
 					}
 
-					//User Website
+					// Website to be used.
+					$user_website = '';
+
+					// List of websites.
+					$user_websites = array ();
+
+					// Profile.
 					if (!empty ($identity->profileUrl))
 					{
-						$user_website = $identity->profileUrl;
+					    $user_websites[] = trim ($identity->profileUrl);
 					}
-					elseif (!empty ($identity->urls [0]->value))
+
+					// Website URLs.
+					if (isset ($identity->urls) && is_array ($identity->urls))
 					{
-						$user_website = $identity->urls [0]->value;
+					    foreach ($identity->urls AS $identity_url)
+					    {
+					        if ( ! empty ($identity_url->value))
+					        {
+					            $user_websites[] = trim ($identity_url->value);
+					        }
+					    }
 					}
-					else
+
+					// Do we have any websites?
+					if (count ($user_websites) > 0)
 					{
-						$user_website = '';
+					    $user_websites = array_unique ($user_websites);
+
+					    // Compute a website to be used.
+					    while (empty ($user_website) && list($key, $value) = each($user_websites))
+					    {
+					        if ( ! empty ($value) && strlen ($value) < 100)
+					        {
+					            $user_website = $value;
+					        }
+					    }
 					}
 
 					//Preferred Username
@@ -210,23 +235,30 @@ function oa_social_login_callback ()
 							$placeholder_email_used = true;
 						}
 
-						//Setup the user's password
-						$user_password = wp_generate_password ();
-						$user_password = apply_filters ('oa_social_login_filter_new_user_password', $user_password);
+						// Setup the user's password.
+						$user_pass = wp_generate_password ();
+						$user_pass = apply_filters ('oa_social_login_filter_new_user_password', $user_pass);
 
-						//Setup the user's role
+						// Setup the user's role.
 						$user_role = get_option ('default_role');
 						$user_role = apply_filters ('oa_social_login_filter_new_user_role', $user_role);
 
+						// Setup the name to display.
+						$user_display_name = (!empty ($user_full_name) ? $user_full_name : $user_login);
+
 						//Build user data
 						$user_fields = array (
-							'user_login' => $user_login,
-							'display_name' => (!empty ($user_full_name) ? $user_full_name : $user_login),
-							'user_email' => $user_email,
+
+						    // User Table.
+						    'user_login' => substr ($user_login, 0, 60),
+						    'user_pass' => $user_pass,
+						    'display_name' => substr ($user_display_name, 0, 250),
+							'user_email' => substr ($user_email, 0, 100),
+						    'user_url' => substr ($user_website, 0, 100),
+
+						    // Meta Table.
 							'first_name' => $user_first_name,
 							'last_name' => $user_last_name,
-							'user_url' => $user_website,
-							'user_pass' => $user_password,
 							'role' => $user_role
 						);
 

@@ -169,7 +169,11 @@ function wppb_mail( $to, $subject, $message, $message_from = null, $context = nu
 	
 	if ( $send_email ) {
 		//we add this filter to enable html encoding
-		add_filter( 'wp_mail_content_type', create_function( '', 'return "text/html"; ' ) );
+		if ( version_compare( phpversion(), '5.4.0', '<' ) ) {
+			add_filter('wp_mail_content_type', create_function('', 'return "text/html"; '));
+		}else{
+			add_filter('wp_mail_content_type', function( $content_type ) { return 'text/html'; } );
+		}
 
 		$atts = apply_filters( 'wppb_mail', compact( 'to', 'subject', 'message', 'headers' ), $context );
 
@@ -250,6 +254,10 @@ function wppb_print_cpt_script( $hook ){
     
 	if ( $hook == 'profile-builder_page_manage-fields' ){
 		wp_enqueue_script( 'wppb-manage-fields-live-change', WPPB_PLUGIN_URL . 'assets/js/jquery-manage-fields-live-change.js', array(), PROFILE_BUILDER_VERSION, true );
+		wp_localize_script( 'wppb-manage-fields-live-change', 'wppb_fields_strings', array( 'gdpr_title' => __( 'GDPR Checkbox', 'profile-builder' ), 'gdpr_description' => __( 'I allow the website to collect and store the data I submit through this form.', 'profile-builder' ) ) );
+
+		wp_enqueue_script( 'wppb-select2', WPPB_PLUGIN_URL . 'assets/js/select2/select2.min.js', array(), PROFILE_BUILDER_VERSION, true );
+        wp_enqueue_style( 'wppb-select2-style', WPPB_PLUGIN_URL . 'assets/css/select2/select2.min.css', false, PROFILE_BUILDER_VERSION );
 	}
 
 	if (( $hook == 'profile-builder_page_manage-fields' ) ||

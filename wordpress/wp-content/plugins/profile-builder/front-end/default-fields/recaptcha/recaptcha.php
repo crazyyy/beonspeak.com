@@ -68,14 +68,17 @@ function wppb_recaptcha_get_html ( $pubkey, $form_name='' ){
  *  Add reCAPTCHA scripts to both front-end PB forms (with support for multiple forms) as well as Default WP forms
  */
 function wppb_recaptcha_script_footer(){
-    
+    $field = wppb_get_recaptcha_field();
+    /* if we do not have a recaptcha field don't do nothing */
+    if( empty( $field ) )
+        return;
+
     //we don't have jquery on the backend
     if( current_filter() != 'wp_footer' ) {
         wp_print_scripts('jquery');
     }
     
     //get site key
-    $field = wppb_get_recaptcha_field();
     $pubkey = '';
     if( isset( $field['public-key'] ) ) {
         $pubkey = trim( $field['public-key'] );
@@ -456,6 +459,8 @@ function wppb_recaptcha_login_wp_error_message($user){
                 // it's a PB login form, check if we have a reCAPTCHA on it and display error if not valid
                 if ((isset($field['captcha-pb-forms'])) && (strpos($field['captcha-pb-forms'], 'pb_login') !== false) && ($wppb_recaptcha_response == false)) {
                     $user = new WP_Error('wppb_recaptcha_error', __('Please enter a (valid) reCAPTCHA value', 'profile-builder'));
+                    remove_filter( 'authenticate', 'wp_authenticate_username_password',  20, 3 );
+                    remove_filter( 'authenticate', 'wp_authenticate_email_password',     20, 3 );
                 }
 
             }
@@ -463,6 +468,8 @@ function wppb_recaptcha_login_wp_error_message($user){
                 //reCAPTCHA error for displaying on the default WP login form
                 if (isset($field['captcha-wp-forms']) && (strpos($field['captcha-wp-forms'], 'default_wp_login') !== false) && ($wppb_recaptcha_response == false)) {
                     $user = new WP_Error('wppb_recaptcha_error', __('Please enter a (valid) reCAPTCHA value', 'profile-builder'));
+                    remove_filter( 'authenticate', 'wp_authenticate_username_password',  20, 3 );
+                    remove_filter( 'authenticate', 'wp_authenticate_email_password',     20, 3 );
                 }
 
             }
@@ -470,7 +477,7 @@ function wppb_recaptcha_login_wp_error_message($user){
     }
     return $user;
 }
-add_filter('authenticate','wppb_recaptcha_login_wp_error_message', 22);
+add_filter('authenticate','wppb_recaptcha_login_wp_error_message', 9);
 
 // Display reCAPTCHA html on default WP Recover Password form
 function wppb_display_recaptcha_default_wp_recover_password() {

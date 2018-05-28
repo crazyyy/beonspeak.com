@@ -95,6 +95,7 @@ class IOWD_Rest extends WP_REST_Controller
             if (empty($received_images) === true) {
                 delete_site_transient("iowd_received_images_" . $post_id);
                 $post_ids = get_transient("iowd_optimizing_post_ids");
+                $post_ids = $post_ids ? $post_ids : array();
                 if (($key = array_search($post_id, $post_ids)) !== false) {
                     unset($post_ids[$key]);
                     set_transient("iowd_optimizing_post_ids", $post_ids);

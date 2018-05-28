@@ -4,6 +4,7 @@
     }	
     define( 'TEN_WEB_API_PLUGIN_DATA_PATH', 'https://api.web-dorado.com/v2/_id_/plugindata' );
     define( 'TEN_WEB_SUBSCRIBE_URL', 'https://core.10web.io/api/wp-subscribe' );
+    define( 'TEN_WEB_DEACTIVATION_URL', 'https://core.10web.io/api/deactivation_reasons' );
 
     require_once dirname( __FILE__ ) . '/config.php';
 

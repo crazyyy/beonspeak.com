@@ -1,32 +1,34 @@
 <?php
+namespace MaxButtons;
+defined('ABSPATH') or die('No direct access permitted');
 
 $url = MB()->get_plugin_url();
 $img_url = $url . "images/gopro";
-$icon_url = $img_url . '/icons/';  
+$icon_url = $img_url . '/icons/';
 ?>
 <?php
-$admin = MB()->getClass('admin'); 
-$page_title = __("Upgrade to Pro","maxbuttons"); 
-$version = maxAdmin::getAdversion(); 
-$checkout_url = maxAdmin::getCheckoutURL(); 
+$admin = MB()->getClass('admin');
+$page_title = __("Upgrade to Pro","maxbuttons");
+$version = maxAdmin::getAdversion();
+$checkout_url = maxAdmin::getCheckoutURL();
 
 $buy_now_top = '<a class="page-title-action add-new-h2 big-maxg-btn" href="
-' . $checkout_url . '&utm_source=mbf-dash' . $version . '&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=buy-now-top' . $version . '" target="_blank">' . __("Buy Now", "maxbuttons") . "</a>"; 
+' . $checkout_url . '&utm_source=mbf-dash' . $version . '&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=buy-now-top' . $version . '" target="_blank">' . __("Buy Now", "maxbuttons") . "</a>";
 
-$middle_buy = $checkout_url . "&utm_source=mbf-dash$version&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=buy-now-1selling$version"; 
+$middle_buy = $checkout_url . "&utm_source=mbf-dash$version&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=buy-now-1selling$version";
 
-$bottom_buy = $checkout_url . "&utm_source=mbf-dash$version&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=getitnow$version"; 
- 
+$bottom_buy = $checkout_url . "&utm_source=mbf-dash$version&utm_medium=mbf-plugin&utm_content=buy-now&utm_campaign=getitnow$version";
+
 $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top, 'action' => 'gopro' ) );
 
 
 
 ?>
 
-   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>   
+   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <div class="wrapper-inner">
- 
- 
+
+
 
   <div class="default-section">
     <div class="container">
@@ -37,13 +39,13 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
       <div class="rating bordered">
         <img src="<?php echo $img_url ?>/stars.png" alt="stars" />
         <p>
-          400+ 5 Star Ratings
+          600+ 5 Star Ratings
         </p>
       </div>
       <p>
         Join our over 5,000 customers!
       </p>
-    </div> <!-- container --> 
+    </div> <!-- container -->
   </div>
 
   <div class="default-section">
@@ -126,7 +128,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
 
 		    </div>
 			 <div class="clearfix"></div>
-		</div><!-- icon row --> 
+		</div><!-- icon row -->
 
   		<h2>Powerful Integrations</h2>
   		<p>&nbsp;</p>
@@ -149,7 +151,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
 				<p>
 				Easy Digital Downloads
 				</p>
-			</div>        
+			</div>
 			<div class="clearfix"></div>
 		    <div class="width-33">
 		      <img src="<?php echo $icon_url ?>beaverbuilder.png" alt="No Coding Required" />
@@ -168,11 +170,11 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
 				<p>
 				Google Analytics Event Tracking
 				</p>
-			</div> 
+			</div>
 			<div class="clearfix"></div>
 		    <div class="width-33">
 		      <p>
-		       
+
 		      </p>
 		    </div>
 			<div class="width-33">
@@ -184,12 +186,12 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
 			<div class="width-33">
 				<p>
 				</p>
-			</div> 	
-			<div class="clearfix"></div>		        
+			</div>
+			<div class="clearfix"></div>
   		</div> <!-- icon-row -->
   	</div> <!-- container -->
-  </div> <!-- section --> 
-  	
+  </div> <!-- section -->
+
 
   <div class="default-section">
     <div class="container">
@@ -315,7 +317,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
         </div>
         <div class="width-33">
           <p>
-            Gray Social Share Buttons 
+            Gray Social Share Buttons
           <img src="<?php echo $img_url ?>/social-2.png" alt="img" />
          </p>
         </div>
@@ -367,9 +369,9 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
           </p>
 
         </div>
-        
+
         <div class="clearfix"></div>
-         
+
         <div class="width-33">
           <p>
             Share Plus Buttons
@@ -391,7 +393,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
           </p>
 
         </div>
-        
+
          <div class="clearfix"></div>
         <div class="width-33">
           <p>
@@ -414,7 +416,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
           </p>
 
         </div>
-        
+
          <div class="clearfix"></div>
         <div class="width-50">
           <p>
@@ -444,6 +446,6 @@ $admin->get_header(array("title" => $page_title, "title_action" => $buy_now_top,
   </div>
     </div>
     <!-- wrapper -->
-	
- 
-<?php $admin->get_footer(); ?> 
+
+
+<?php $admin->get_footer(); ?>

@@ -8,7 +8,8 @@
 
         public $prefix = null;          
         public $wd_plugin_id = null;          
-        public $plugin_title = null;          
+        public $plugin_id = null;
+        public $plugin_title = null;
         public $plugin_wordpress_slug = null;          
         public $plugin_dir = null;                   
         public $plugin_main_file = null;          
@@ -43,6 +44,9 @@
             }
             if(isset( $options["wd_plugin_id"] )) {
                 $this->wd_plugin_id =  $options["wd_plugin_id"];
+            }
+            if(isset( $options["plugin_id"] )) {
+                $this->plugin_id =  $options["plugin_id"];
             }
             if(isset( $options["plugin_title"] )) {
                 $this->plugin_title =  $options["plugin_title"];

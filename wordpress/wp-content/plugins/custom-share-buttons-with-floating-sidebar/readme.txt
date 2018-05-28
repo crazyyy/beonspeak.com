@@ -1,25 +1,28 @@
 === Custom Share Buttons with Floating Sidebar ===
 Contributors:india-web-developer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZEMSYQUZRUK6A
-Tags: social share buttons,custom share buttons,facebook, twitter, google+, share, share links,linkedin,Stumbleupon,Reddit,pinterest,floating sidebar,float,floating share buttons,float share buttons
-Requires at least: 3.8
-Tested up to: 4.6
-Stable tag: 2.9
+Tags: social share buttons,custom share buttons,facebook, twitter, google+, share buttons,linkedin,Stumbleupon,Reddit,pinterest,Xing,floating sidebar,float,floating share buttons,float share buttons
+Requires at least: 4.0
+Tested up to: 4.9.1
+Stable tag: 3.4
 
 Social Share Buttons (Facebook,Twitter,Linkedin,Google+,Pinterest,Youtube,Mail,Stumbleupon,Reddit) & Share Floating Sidebar.
 
 == Description ==
 
-= “custom-share-buttons-with-floating-sidebar” = , it is plugin for social networks. It is very simple plugin for share your site with your friends through social sites,The plugin supports 9 social networking.
-Your users share via their accounts on popular social networks such as Facebook, Twitter, Linkedin, Pinterest, Google+, Stumbleupon, Reddit, Youtube and Refer a Friend.
+= “custom-share-buttons-with-floating-sidebar” = It is a plugin to share your site among your friends through social sites. This plugin supports 9 social networking websites.
 
-With this plugin, you give users the tools to share your content, product details and other information with their own networks.
+By using this plugin, visitors can share your website on popular social networks such as Facebook, Twitter, Linkedin, Pinterest, Google+, Stumbleupon, Reddit, Youtube.
+
+  https://youtu.be/tqnAPG5VfFY
+  
+With this plugin, you can give users a tool to share your content, product details and other information with their own networks.
 
 More than 22 billion shares are viewed each and every day on the internet, with sharing becoming an increasingly important part of every website owner’s marketing strategies.
 
 Let your users share via their accounts on popular social networks. Install this free plugin to enable Social Sharing on your WordPress site and start driving high quality referrals to your website.
 
-It is lightweight plugin. There are not added any external JS files in this plugin so it’s does not effect on your site speed as well.
+It is a lightweight plugin. There is no external JS file added  in this plugin so it will affect your site speed.
 
 You can add a social share floating sidebar with all social share buttons and Even you can change the share buttons images and their style from admin if you wish!.
 
@@ -29,55 +32,64 @@ You can add a social share floating sidebar with all social share buttons and Ev
 
 = Features =
 
- * Options for add to Custom Image of any buttons
- * Options for add to  background color of buttons
+ * An options to add Custom Image of any social button.
+ * An options to add background color of social button.
  * Floating Sidebar
- * Share Buttons for every post/page
+ * Share Buttons to every post/page
  * Show/Hide options for any buttons
- * Options for edit to message ("Show Buttons","Hide Buttons"...etc)
- * Options for set the position of Floating Sidebar (Left/Right/Bottom)
- * Options for set the position of Social Buttons (Left/Right)
- * Options for manage the style of the plugin
- * Option for disable sidebar for mobile
- * Option for define the pinterest share image
- * Option for auto close sidebar buttons on page load
- * Option for hide "Share This!!" button on page/post
- * Option for define share buttons postion (above content/below content)
+ * An options to edit message ("Show Buttons","Hide Buttons"...etc)
+ * An options to set the position of Floating Sidebar (Left/Right/Bottom)
+ * An options to set the position of Social Buttons (Left/Right)
+ * An options to manage the style of the plugin
+ * An option to disable sidebar for mobile
+ * Advance feature of pinterest share buttons to share images.
+ * An option to auto close sidebar buttons on page load
+ * An option to hide "Share This!!" button on page/post
+ * An option to define share buttons postion (above content/below content)
  
 = Go Pro =
 
 We have also released an add-on for Custom Share Buttons With Floating Sidebar which not only demonstrates the flexibility of CSBWFS, but also adds some important features:
 
- * Responsive Floating Sidebar 
- * Hide Floating Sidebar On Home/Post/Page/Category and on Custom Post Type 
- * An Option for Show/Hide sidebar on any specific page/post/product 
- * Show Social Share Buttons On Home/Post/Page/Category and on Custom Post Type 
- * An Option for Show/Hide social share buttons on any specific page/post/product 
- * An Option for Show/Hide sidebar on any custom post type 
- * Responsive Lightbox Contact Form (for Mail Icon) 
- * An option for add to any custom shortcode into lightbox 
- * Advance feature for choose to pinterest share image 
- * An option for add to OG tags content(title,image,description) 
- * An option for set automatically horizontal sidebar position for mobile 
- * An option for add to social site official page URL for all social buttons 
- * Extra Buttons (Google Translate,Instagram,Whatsapp,Digg,Yummly,Vk, Buffer, Line, Skype, RSS, Print, G-Mail, Blogger, Tumbler,Delicious,Weibo, Telegram &amp; SMS ) 
- * An option for define to twitter username in thier share window. 
- * An option for display to number of share(Facebook,LinkedIn,StumbleUpon,Google Plus,Pinterest and Reddit) 
- * An options for change to any button image, title, background colour and url (You can use any button as your own custom button) 
- * An options to define sorting order for all buttons 
- * 10 extra custom floating sidebar buttons with extra options (i.e you can define your own custom size for these buttons) 
- * An option for show to sum of total share count for all buttons 
- * An option for remove mouse hover animation effect for all social buttons
- * Faster support 
+  PRO FEATURES : 
+  
+  https://youtu.be/QUnxtCe95Ww
 
 
- **[Addon Documentation](https://rgaddons.wordpress.com/custom-share-buttons-with-floating-sidebar-pro/documentation/)**
-
+ * Responsive Floating Sidebar
+ * Shortcode
+ * An option to Hide Floating Sidebar On Home/Blog/Search/Category/Author pages
+ * An option to Hide Floating Sidebar On any post type (i.e page,post,event,product…etc)
+ * An option to Hide Floating Sidebar On any taxonomy type (support all custom taxonomy type)
+ * An Option to Show/Hide sidebar on specific page/post and on any custom post type pages as well.
+ * An option to Show Social Share Buttons On Home/Blog/Search/Category/Author pages
+ * An option to Show Social Share Buttons on any taxonomy type (support all custom taxonomy type)
+ * An Option to Show/Hide social share buttons on specific page/post and on any custom post type pages as well.
+ * Responsive Light box Contact Form (for Mail Icon)
+ * An option to add to any custom shortcode into light box
+ * Advance feature for choose to pinterest share image
+ * An option to enable to OG tags meta boxes for define to share window content(share title, share description & share image path)
+ * An option to set sidebar position (left/right/bottom) for mobile
+ * An option to add social site official page URL for all social buttons
+Extra Buttons (Xing,Instagram,Whatsapp,Digg,Yummly,Vk, Buffer, Line, Skype, RSS, Print, G-Mail, Blogger, Tumbler, Delicious, Weibo, Telegram, Google Translate, Phone & SMS )
+ * An option to define to twitter username as hash tag in share window.
+ * An option to display to number of share(Facebook, Linkedin, StumbleUpon, Pinterest, Xing and Reddit)
+ * An options to change to buttons image, title, background color and url (You can use any button as your own custom button)
+ * An options to define sorting order for all buttons
+ * 10 extra custom floating sidebar buttons with extra options (i.e you can define your own custom size for these buttons)
+ * An option to show sum of total share count for all buttons
+ * An option to remove mouse hover animation effect for all social buttons
+ * An options to choose different style of sidebar
+ * An option to define page specific sidebar position (Left/Right/Bottom) for all page
+ * An option to choose custom styles of social share buttons
+ * An option to define sidebar position for every page separately
+ * An option to show/hide sidebar from any specific page
+ * Faster support
 
  **[Upgrade to Pro Version](https://rgaddons.wordpress.com/custom-share-buttons-with-floating-sidebar-pro/)**
 
  
- For any query contact to plugin author on **[raghunath.0087@gmail.com](mailto:raghunath.0087@gmail.com)**
+ For any query contact to **[plugin author](mailto:raghunath.0087@gmail.com)**
 
  We have released also a social share pro extenstion for magento Sites
  **[Go Pro Magento Version](http://www.magentocommerce.com/magento-connect/social-share-buttons-pro.html)**
@@ -148,6 +160,29 @@ Step 3. Go to Settings/"Custom Share Buttons with Floating Sidebar" and configur
 9. screenshot-9.png
 
 == Changelog == 
+
+= 3.4 = 
+ * Tested with latest wordpress version 4.9.1
+ * Optimized CSS of share buttons
+ * Added an extra feature to Pinterest button for share to multi images
+ 
+= 3.3 = 
+ * Tested with latest wordpress version 4.8.2
+ * Released addon new version 3.2 with new features
+ * Fixed a minor bug
+ * Optimized code
+= 3.2 = 
+ * Tested with latest wordpress version 4.8
+ * Fixed a minor bug
+= 3.1 = 
+ * Tested with latest wordpress version 4.7.3
+ * Added an option for define to button background color of social share buttons
+ * Fixed show/hide buttons related bug
+ * Released new addon verson 3.0
+ 
+= 3.0 = 
+ * Tested with latest wordpress version 4.7
+ * Optimized plugin code
 = 2.9 = 
  * Tested with latest wordpress version 4.6
  * optmized CSS

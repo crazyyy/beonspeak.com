@@ -3,14 +3,15 @@
 
 */
 .message {
-	//border: solid 1px #e6db55;
+	border: solid 1px #e6db55;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	padding: 10px;
 	margin: 10px 0px 20px 0px;
 	clear: both;
-
+	background: #fff; 
+	
 
 }
 
@@ -34,6 +35,9 @@
 		background-color: #ffffe0; 
 		
 	}
+	&.warning { border-left: 4px solid #ffba00; } 
+	&.error { border-left: 4px solid #ff0000; } 
+	
 	&.mb-notice { 
 		@extend .shortcode;
 	}

@@ -1,4 +1,7 @@
 <?php
+namespace MaxButtons;
+defined('ABSPATH') or die('No direct access permitted');
+
 global $page_title; 
 $page_title = __("Social Share", "maxbuttons"); 
 $admin = MB()->getClass("admin"); 
@@ -9,10 +12,19 @@ $admin->get_header(array("tabs_active" => true, "title" => $page_title, "title_a
 
 $collections = maxCollections::getCollections(); 
 $maxCol = new maxCollection(); 
+
+//if (count($collections) == 0) : 
+	require_once('social-share.php'); 
+
+//else:
+
 ?>
- 
+ <!--
  <a class="page-title-action collection-addnew" href="<?php echo admin_url() ?>admin.php?page=maxbuttons-collections&action=edit&collection=social">
-	<?php _e("Add New","maxbuttons"); ?></a> 
+	<?php _e("Add New","maxbuttons"); ?></a>  -->
+
+<?php //endif; 
+?>
  
 <?php 
 
@@ -39,9 +51,13 @@ foreach ($collections as $index => $data)
 {
 	$id = $data["collection_id"]; 
 	$name = $maxCol->get_meta($id, "collection_name"); 
-	$name = $name["collection_name"]; 
+	$name = isset($name['collection_name']) ? $name["collection_name"] : ''; 
+
 
 	$collection = maxCollections::getCollectionById($id); 	
+	if (! $collection) 
+		continue; 
+		
 	$collection_type = $collection->getType();
 	$block_nonce = wp_create_nonce('mbpro_collection_block-' . $id); 
 
@@ -84,10 +100,11 @@ foreach ($collections as $index => $data)
 <?php
 }
 
+/*
 if (count($collections) == 0) 
 {
 	do_action("mb-display-collection-welcome"); 
-}
+} */
 ?>
  
 </div> <!-- // collection-list --> 

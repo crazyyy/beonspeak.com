@@ -1,11 +1,8 @@
 <?php
+namespace MaxButtons;
 defined('ABSPATH') or die('No direct access permitted');
 $blockClass["responsive"] = "responsiveBlock"; 
 $blockOrder[90][] = "responsive"; 
-
-use MaxButtons\maxBlocks  as maxBlocks;
-use MaxButtons\maxField   as maxField;
-
 
 class responsiveBlock extends maxBlock 
 {

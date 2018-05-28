@@ -38,11 +38,13 @@ jQuery(document).ready(function(){
    jQuery('#div-csbwfs-share-buttons #csbwfsresetpage').click(function(){
 	   jQuery('#div-csbwfs-share-buttons .inputButtonid').val('');
 	   jQuery('#div-csbwfs-share-buttons .csbwfs_title').val('');
+	   jQuery('#div-csbwfs-share-buttons .color-field').val('');
 	   })
 /** reset floating sidebar settings  */	   
    jQuery('#div-csbwfs-sidebar #csbwfs_resetpage').click(function(){
-	   jQuery('#div-csbwfs-sidebar .inputButtonid').val('');
+	   jQuery('#div-csbwfs-sidebar .inputButtonid').val(''); 
 	   jQuery('#div-csbwfs-sidebar .csbwfs_title').val('');
+	   jQuery('#div-csbwfs-sidebar .color-field').val('');
 	   })
 	   
    });

@@ -8,7 +8,7 @@ class IOWD
 {
 
     protected static $instance = null;
-    private static $version = '1.0.10';
+    private static $version = '1.0.12';
     private static $page;
     private $reg_autoloader = false;
     private $options = array();

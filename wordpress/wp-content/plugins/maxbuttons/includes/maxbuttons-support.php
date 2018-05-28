@@ -1,4 +1,7 @@
 <?php
+namespace MaxButtons;
+defined('ABSPATH') or die('No direct access permitted');
+
 $theme = wp_get_theme();
 $browser = maxbuttons_get_browser();
 
@@ -130,12 +133,12 @@ $admin->get_header(array("title" => $page_title, "title_action" => $action) );
     <div class="rss-feed">
           <h3><?php _e('Latest Support Questions', 'maxbuttons'); ?></h3>
               <?php
-              if( ini_get('allow_url_fopen') ): 
+              if( ini_get('allow_url_fopen') && extension_loaded('simplexml') ): 
               
                	try{
                   $content = file_get_contents('https://wordpress.org/support/rss/plugin/maxbuttons');
 
-                  $x = new SimpleXmlElement($content);
+                  $x = new \SimpleXmlElement($content);
 				}
 				catch (Exception $e)
 				{
@@ -168,7 +171,7 @@ $admin->get_header(array("title" => $page_title, "title_action" => $action) );
                   }
                   echo '</ul>';
               	else: 
-              		echo _e("Your server doesn't allow us to catch the latest support questions", "maxbuttons");  
+              		echo _e("Your server doesn't allow us to fetch the latest support questions", "maxbuttons");  
               	
               	endif; // ini_get
               ?>

@@ -3,8 +3,8 @@ Contributors: cozmoslabs, reflectionmedia, sareiodata, adispiac, madalin.ungurea
 Donate link: http://www.cozmoslabs.com/wordpress-profile-builder/
 Tags: user registration, user profile, user registration form, user fields, extra user fields, edit profile, user custom fields, front-end login, front-end edit profile, front-end user registration, email confirmation, login form, content restriction, restrict content
 Requires at least: 3.1
-Tested up to: 4.9.4
-Stable tag: 2.7.8
+Tested up to: 4.9.6
+Stable tag: 2.8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,8 @@ Users with administrator rights have access to the following features:
 * **reCAPTCHA** support for Profile Builder and Wordpress default forms
 * **User Role Select** field on register and edit profile forms
 * **Content Restriction**: restrict content based on current users role or logged in status
+* Restrict WooCommerce shop page and products
+* Invisible reCAPTCHA support for both Profile Builder forms as well as default WordPress forms
 
 **PROFILE BUILDER PRO**
 
@@ -119,8 +121,9 @@ Please visit the [documentation page](https://www.cozmoslabs.com/docs/profile-bu
 For more details visit our [website](http://www.cozmoslabs.com/wordpress-profile-builder/)
 
 = Profile Builder in your Language =
-We're focusing on translating Profile Builder in as many languages as we can. So far, the translations for 10 languages are almost complete, but we still need help on a lot of other languages, so please join us at [translate.cozmoslabs.com.](http://translate.cozmoslabs.com/projects/profile-builder)
-You will be able to download all the [available language packs](http://translate.cozmoslabs.com/projects/profile-builder) as well as help us translate Profile Builder in your language.
+We're focusing on translating Profile Builder in as many languages as we can. So far, the translations for 10 languages are almost complete, but we still need help on a lot of other languages, so please join us at [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/profile-builder)
+You will be able to download all the [available language packs](https://translate.wordpress.org/projects/wp-plugins/profile-builder) as well as help us translate Profile Builder in your language.
+For more information please visit [cozmoslabs.com](https://www.cozmoslabs.com/docs/profile-builder-2/translate-profile-builder/)
 
 NOTE:
 This plugin adds/removes user fields in the front-end. Both default and extra profile fields will be visible in the back-end as well.
@@ -163,6 +166,31 @@ This plugin adds/removes user fields in the front-end. Both default and extra pr
 12. Role Editor
 
 == Changelog ==
+= 2.8.3 =
+* Usability improvements and some name changes
+* Refactored manage fields dropdown to be more user friendly
+* Added the GDPR field on the Edit Profile as well
+
+= 2.8.2 = 
+* Added GDPR checkbox default field
+* Fixed some warnings with Onfleek theme
+
+= 2.8.1 =
+* Added a feedback modal on plugin deactivate for profile builder
+* Added 'form_name' parameter to the submit button value hook.
+* Fixed small typos.
+
+= 2.8.0 =
+* Improved reCaptcha security on login forms
+* Fixed issue with 'User to edit' field and multiple edit forms on the same page
+* Fixed some warnings regarding the 'save_post' hook
+* Fixed a warning regarding 'create_function'
+
+= 2.7.9 =
+* Added support for Content Restriction on WooCommerce shop page and products
+* Fixed php version 7.2 warnings
+* Modification to the recaptcha field that will eliminate some warnings
+
 = 2.7.8 =
 * Fixed issue with reCaptcha not appearing any more in some cases
 * Fixed a notice introduced in the last update
