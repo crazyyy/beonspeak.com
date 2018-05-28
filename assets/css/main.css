@@ -17840,16 +17840,8 @@ img.mfp-img {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-h1 {
-  font: bold 29px/29px Ubuntu;
-  color: #403d5a;
-}
-
-h2 {
-  font: bold 29px/29px Ubuntu;
-  color: #403d5a;
-}
-
+h1,
+h2,
 h3 {
   font: bold 29px/29px Ubuntu;
   color: #403d5a;
@@ -17867,7 +17859,7 @@ h5 {
 
 h6 {
   font: normal 12px/18px Ubuntu;
-  color: #333333;
+  color: #333;
 }
 
 body {
@@ -17897,6 +17889,19 @@ body {
   .select-menu {
     display: block;
   }
+}
+
+.hero-unit h1,
+.hero-unit h2,
+.hero-unit h3,
+.hero-unit h4,
+.hero-unit h5 {
+  font-size: 29px;
+  line-height: 29px;
+  margin-bottom: 25px;
+  letter-spacing: normal;
+  color: #f3f3f3;
+  background: url(../img/title_item_1.png) no-repeat 0 100%;
 }
 
 /*# sourceMappingURL=maps/main.css.map */

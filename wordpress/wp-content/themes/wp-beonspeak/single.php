@@ -1,34 +1,56 @@
 <?php get_header(); ?>
+    <div class="motopress-wrapper content-holder clearfix">
+      <div class="container">
+        <div class="row">
+          <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+            <div class="span12">
+              <div class="row">
+                <div class="span12">
+                  <section class="title-section">
+                    <h1 class="title-header"><?php the_title(); ?></h1>
+                    <?php if (function_exists('easy_breadcrumbs')) easy_breadcrumbs(); ?>
+                  </section>
+                  <!-- .title-section -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="span8 right right" id="content">
+                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                    <!-- Post Content -->
+                    <div class="post_content">
+                      <?php the_content(); ?>
+                      <div class="clear"></div>
+                    </div>
+                    <!-- //Post Content -->
 
-      <h1 class="single-title inner-title"><?php the_title(); ?></h1>
-      <?php if ( has_post_thumbnail()) :?>
-        <a class="single-thumb" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-          <?php the_post_thumbnail(); // Fullsize image for the single post ?>
-        </a>
-      <?php endif; ?><!-- /post thumbnail -->
+                    <!-- Post Meta -->
+                    <div class="post_meta meta_type_line">
+                      <div class="post_meta_unite clearfix">
+                        <div class="meta_group clearfix">
+                          <div class="post_category">
+                            <i class="icon-bookmark"></i>
+                            <?php the_category(', '); ?> </div>
+                          <div class="post_date">
+                            <i class="icon-calendar"></i>
+                            <?php the_time('d F Y'); ?> <?php the_time('H:i'); ?>
+                          </div>
+                        </div>
+                        <div class="meta_group clearfix"></div>
+                        <div class="meta_group clearfix"></div>
+                      </div>
+                    </div>
+                    <!--// Post Meta -->
+                  </article>
 
-      <span class="date"><?php the_time('d F Y'); ?> <?php the_time('H:i'); ?></span>
-      <span class="author"><?php _e( 'Published by', 'wpeasy' ); ?> <?php the_author_posts_link(); ?></span>
-      <span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'wpeasy' ), __( '1 Comment', 'wpeasy' ), __( '% Comments', 'wpeasy' )); ?></span><!-- /post details -->
+                </div>
 
-      <?php the_content(); ?>
+                <?php get_sidebar(); ?>
 
-      <?php the_tags( __( 'Tags: ', 'wpeasy' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
-
-      <p><?php _e( 'Categorised in: ', 'wpeasy' ); the_category(', '); // Separated by commas ?></p>
-
-      <p><?php _e( 'This post was written by ', 'wpeasy' ); the_author(); ?></p>
-
-      <?php edit_post_link(); ?>
-
-      <?php comments_template(); ?>
-
-    </article>
-  <?php endwhile; endif; ?>
-
-  <?php get_sidebar(); ?>
-
+              </div>
+            </div>
+          <?php endwhile; endif; ?>
+        </div>
+      </div>
+    </div>
 <?php get_footer(); ?>

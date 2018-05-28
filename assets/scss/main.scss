@@ -72,3 +72,21 @@ body {
     display: block;
   }
 }
+
+.hero-unit {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 29px;
+    line-height: 29px;
+
+    margin-bottom: 25px;
+
+    letter-spacing: normal;
+
+    color: #f3f3f3;
+    background: url(../img/title_item_1.png) no-repeat 0 100%;
+  }
+}
