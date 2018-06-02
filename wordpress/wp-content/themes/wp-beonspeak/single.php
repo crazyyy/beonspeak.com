@@ -19,6 +19,9 @@
 
                     <!-- Post Content -->
                     <div class="post_content">
+                    <?php if ( has_post_thumbnail()) { ?>
+                      <img src="<?php echo the_post_thumbnail_url('full'); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" />
+                    <?php } ?>
                       <?php the_content(); ?>
                       <div class="clear"></div>
                     </div>

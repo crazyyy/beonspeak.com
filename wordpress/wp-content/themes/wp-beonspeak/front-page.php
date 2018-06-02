@@ -123,60 +123,6 @@
                     <div class="clear"></div>
                   </div>
                   <!-- .content_box (end) -->
-                  <div class="row ">
-                    <div class="span12 ">
-                      <section class="lazy-load-box trigger effect-fade ">
-                        <div class="hero-unit extra">
-                          <h1>Наши учителя</h1>
-                          <p>Praesent vel ultricies sapien. Phasellus molestie in nisl sed gravida. Quisque venenatis sapien ut velit rutrum po. Suspendisse ultrices nec enim sed semper. Morbi faucibus convallis arcu sed euismod.</p>
-                        </div>
-                        <!-- .hero-unit (end) -->
-                      </section>
-                      <section class="lazy-load-box trigger effect-zoomin ">
-                        <ul class="mini-posts-grid grid-align-left unstyled list_2">
-                          <li class="custom_thumb list-item-0">
-                            <figure class="featured-thumbnail thumbnail"><a href="wp-content/uploads/2012/05/team_1.jpg" title="Laura Klazen" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/team_1-270x294.jpg" alt="Laura Klazen"><span class="zoom-icon"></span></a></figure>
-                            <div class="caption">
-                              <h5><a href="team-view/laura-klazen/" title="Laura Klazen">Laura Klazen</a></h5> <span class="teampos">German teacher</span>
-                              <p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu. Suspendisse congue 1986 viverra nunc sed ultrices. Aliquam erat volutpat.... </p>
-                            </div>
-                          </li>
-                          <li class="custom_thumb list-item-1">
-                            <figure class="featured-thumbnail thumbnail"><a href="wp-content/uploads/2011/07/team_2.jpg" title="Max Green" rel="prettyPhoto[gallery1]"><img src="<?php echo get_template_directory_uri(); ?>/img/team_2-270x294.jpg" alt="Max Green"><span class="zoom-icon"></span></a></figure>
-                            <div class="caption">
-                              <h5><a href="team-view/max-green/" title="Max Green">Max Green</a></h5> <span class="teampos">English teacher</span>
-                              <p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu. Suspendisse congue 1986 viverra nunc sed ultrices. Aliquam erat volutpat.... </p>
-                            </div>
-                          </li>
-                          <li class="custom_thumb list-item-2">
-                            <figure class="featured-thumbnail thumbnail"><a href="wp-content/uploads/2011/07/team_3.jpg" title="Alice Teylor" rel="prettyPhoto[gallery2]"><img src="<?php echo get_template_directory_uri(); ?>/img/team_3-270x294.jpg" alt="Alice Teylor"><span class="zoom-icon"></span></a></figure>
-                            <div class="caption">
-                              <h5><a href="team-view/alice-teylor/" title="Alice Teylor">Alice Teylor</a></h5> <span class="teampos">German teacher</span>
-                              <p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu. Suspendisse congue 1986 viverra nunc sed ultrices. Aliquam erat volutpat.... </p>
-                            </div>
-                          </li>
-                          <li class="custom_thumb list-item-3">
-                            <figure class="featured-thumbnail thumbnail"><a href="wp-content/uploads/2011/07/team_4.jpg" title="Michael Smith" rel="prettyPhoto[gallery3]"><img src="<?php echo get_template_directory_uri(); ?>/img/team_4-270x294.jpg" alt="Michael Smith"><span class="zoom-icon"></span></a></figure>
-                            <div class="caption">
-                              <h5><a href="team-view/michael-smith/" title="Michael Smith">Michael Smith</a></h5> <span class="teampos">English teacher</span>
-                              <p class="excerpt">Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibu. Suspendisse congue 1986 viverra nunc sed ultrices. Aliquam erat volutpat.... </p>
-                            </div>
-                          </li>
-                        </ul>
-                        <!-- .posts-grid (end) -->
-                        <div class="clear"></div>
-                      </section>
-                      <section class="lazy-load-box trigger effect-slideup ">
-                        <div class="content_box center ">
-                          <a href="blog" title="View More" class="btn btn-primary btn-normal btn-inline " target="_self">View More</a>
-                          <!-- .btn -->
-                          <div class="clear"></div>
-                        </div>
-                        <!-- .content_box (end) -->
-                      </section>
-                    </div>
-                  </div>
-                  <!-- .row (end) -->
                   <div class="spacer"></div>
                   <!-- .spacer (end) -->
                   <div class="row ">
