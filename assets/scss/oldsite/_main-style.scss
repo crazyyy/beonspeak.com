@@ -57,8 +57,8 @@ a {
 .header {
     position: relative;
     z-index: 99;
-    padding: 30px 0;
-    border-bottom: 1px solid #DDD;
+    padding: 0;
+    border-bottom: 0;
     background-color: #eee;
 }
 
@@ -456,7 +456,7 @@ li {
     border: 1px solid #DDD;
     background: #f5f5f5;
     font-style: italic;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Noto Serif', serif;
     line-height: 1.5em;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -483,7 +483,7 @@ li {
 
 .testimonial {
     small {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: 'Noto Serif', serif;
         font-style: normal;
         padding: 12px 0 0;
         font-size: 10.2px;
@@ -1128,7 +1128,7 @@ li {
             cursor: default;
 
             i, span {
-                color: #2ecc71;
+                color: #26BDEF;
             }
 
             i {
@@ -1405,7 +1405,7 @@ li {
     }
 
     blockquote {
-        font-family: Georgia, "Times New Roman", Times, serif;
+        font-family: 'Noto Serif', serif;
         font-size: 15px;
         line-height: 1.4em;
         font-style: italic;
@@ -1546,7 +1546,7 @@ p.gravatar {
         vertical-align: top;
         text-decoration: none;
         font-size: 11px;
-        font-family: "Times New Roman", Times, serif;
+        font-family: 'Noto Serif', serif;
 
         span {
             display: inline-block;
@@ -1707,7 +1707,7 @@ p.gravatar {
         padding: 5px 10px;
 
         &:hover {
-            color: #005580;
+            color: #26BDEF;
         }
     }
 
@@ -2320,7 +2320,17 @@ iframe .uiHeader h3 {
 
     .icon {
         float: left;
+        width: 100%;
+        height: 100%;
         margin: 0 10px 10px 0;
+            display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
     }
 
     h2 {
@@ -3448,7 +3458,7 @@ div {
     &.wpcf7-mail-sent-ok {
         background: #DFF0D8 !important;
         border: 1px solid #DDD !important;
-        color: #468847 !important;
+        color: #26BDEF !important;
     }
 }
 
@@ -4269,8 +4279,8 @@ body {
             -moz-box-shadow: none !important;
             box-shadow: none !important;
             resize: none;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 13px;
+            font-family: 'Noto Serif', serif;
+            font-size: 14px;
             font-weight: 400;
             color: #797979 !important;
         }
@@ -4289,8 +4299,8 @@ body {
         -moz-box-shadow: none !important;
         box-shadow: none !important;
         resize: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
+        font-family: 'Noto Serif', serif;
+        font-size: 14px;
         font-weight: 400;
         color: #797979 !important;
     }
@@ -4311,7 +4321,7 @@ html.ie8 .main-holder {
 .main-holder {
     input {
         &[type="submit"], &[type="reset"] {
-            background: #92bb46;
+            background: #26BDEF;
             height: 36px;
             padding: 0 23px;
             border: none;
@@ -4326,15 +4336,15 @@ html.ie8 .main-holder {
             -o-transition: 0.8s;
             transition: 0.8s;
             letter-spacing: 1px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 13px;
+            font-family: 'Noto Serif', serif;
+            font-size: 14px;
             font-weight: 700;
             text-transform: uppercase;
             color: #fff;
         }
 
         &[type="submit"]:focus, &[type="reset"]:focus {
-            background: #92bb46;
+            background: #26BDEF;
             -webkit-box-shadow: none;
             -moz-box-shadow: none;
             box-shadow: none;
@@ -4406,7 +4416,7 @@ h1, h2, h3 {
 
         &:hover {
             text-decoration: none;
-            color: #92bb46;
+            color: #26BDEF;
         }
     }
 }
@@ -4428,7 +4438,7 @@ h4 {
 
         &:hover {
             text-decoration: none;
-            color: #92bb46;
+            color: #26BDEF;
         }
     }
 }
@@ -4447,7 +4457,7 @@ h5 {
 
         &:hover {
             text-decoration: none;
-            color: #a1cd51;
+            color: #26BDEF;
         }
     }
 }
@@ -4517,8 +4527,8 @@ img.alignleft {
     background: #fff;
     position: relative;
     margin: 0;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+    border-bottom: 0;
 
     &:before {
         background: #403d5a;
@@ -4539,12 +4549,12 @@ img.alignleft {
     .social-nets-wrapper {
         width: 100%;
         overflow: hidden;
-        margin: 0 0 25px 0;
+        margin: 0;
         padding: 0;
         text-align: right;
 
-        ul {
-            background: #a1cd51;
+       ul {
+            background: #26BDEF;
             display: inline-block;
             margin: 0;
             padding: 0 10px;
@@ -4567,13 +4577,11 @@ img.alignleft {
                     }
 
                     &:before {
-                        background: #a1cd51;
+                        background: #26BDEF;
                         display: inline-block;
                         width: 37px;
                         height: 36px;
-                        -webkit-transition: 0.8s;
-                        -moz-transition: 0.8s;
-                        -o-transition: 0.8s;
+
                         transition: 0.8s;
                         vertical-align: top;
                         line-height: 36px;
@@ -4650,8 +4658,10 @@ img.alignleft {
             z-index: 999;
 
             .sf-menu {
+
                 float: none;
                 padding: 0;
+
                 line-height: 0;
                 font-size: 0;
 
@@ -4666,12 +4676,19 @@ img.alignleft {
 
         .sf-menu {
             padding: 6px 0 0 0;
-
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
             ul {
                 background: #fff;
-                width: 129px;
+                width: 140px;
                 padding: 9px 0 9px 0;
-                border: 1px solid rgba(0, 0, 0, 0.1);
+
+               border: 1px solid rgba(0, 0, 0, 0.1);
             }
         }
     }
@@ -4679,7 +4696,7 @@ img.alignleft {
 
 @media (max-width: 767px) {
     .header {
-        padding: 0 20px 20px 20px;
+        padding: 0 20px 20px;
         text-align: center;
     }
 }
@@ -4705,7 +4722,7 @@ img.alignleft {
 
 @media (min-width: 1200px) {
     .header .nav__primary .sf-menu {
-        margin: 0 42px 0 0;
+        margin: 0;
     }
 }
 
@@ -4770,13 +4787,13 @@ html.ie8 .header .nav__primary .sf-menu ul {
         > li {
             > a:hover, &.sfHover > a, &.current-menu-item > a, &.current_page_item > a {
                 background: none;
-                color: #74a814;
+                color: #26BDEF;
             }
         }
 
         li li {
             > a:hover, &.sfHover > a, &.current-menu-item > a, &.current_page_item > a {
-                background: #a1cd51;
+                background: #26BDEF;
                 color: #fff;
             }
         }
@@ -4850,14 +4867,14 @@ body.home .content-holder {
             padding: 0 0 0 16px;
             list-style: none;
             line-height: 18px;
-            font-size: 13px;
+            font-size: 14px;
             color: #797979;
 
             &:before {
                 line-height: 7px;
                 font-family: FontAwesome;
                 font-size: 7px;
-                color: #92bb46;
+                color: #26BDEF;
                 position: absolute;
                 top: 6px;
                 left: 1px;
@@ -4870,7 +4887,7 @@ body.home .content-holder {
 
                 &:hover {
                     text-decoration: none;
-                    color: #92bb46;
+                    color: #26BDEF;
                 }
             }
         }
@@ -4910,7 +4927,7 @@ body.home .content-holder {
 
                     &:hover {
                         text-decoration: none;
-                        color: #92bb46;
+                        color: #26BDEF;
                     }
                 }
             }
@@ -4919,8 +4936,8 @@ body.home .content-holder {
                 display: block;
                 margin: 0 0 3px 0;
                 line-height: 18px;
-                font-size: 13px;
-                color: #92bb46;
+                font-size: 14px;
+                color: #26BDEF;
             }
 
             .excerpt {
@@ -4956,18 +4973,18 @@ body.home .content-holder {
                 margin: 0 0 6px 0;
                 padding: 0;
                 line-height: 18px;
-                font-family: 'Open Sans', sans-serif;
-                font-size: 13px;
+                font-family: 'Noto Serif', serif;
+                font-size: 14px;
                 font-weight: 400;
                 text-transform: none;
-                color: #92bb46;
+                color: #26BDEF;
             }
 
             time {
                 display: block;
                 line-height: 18px;
-                font-size: 13px;
-                color: #92bb46;
+                font-size: 14px;
+                color: #26BDEF;
             }
 
             .comments-custom_txt {
@@ -4981,7 +4998,7 @@ body.home .content-holder {
 
     #wp-calendar {
         caption, thead tr th {
-            color: #74a814;
+            color: #26BDEF;
         }
     }
 }
@@ -5185,7 +5202,7 @@ html.ie8 .list_2 li {
     }
 
     .caption {
-        background: #92bb46;
+        background: #26BDEF;
         height: 50px;
         overflow: hidden;
         padding: 13px 20px 13px 20px;
@@ -5298,7 +5315,7 @@ html.ie8 .list_2 li .caption:hover {
         -o-transition: 0.8s;
         transition: 0.8s;
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 14px;
         text-transform: uppercase;
         color: #fff;
     }
@@ -5403,7 +5420,7 @@ html.ie8 .list_3 li {
 
             &:hover {
                 text-decoration: none;
-                color: #92bb46;
+                color: #26BDEF;
             }
         }
     }
@@ -5414,13 +5431,13 @@ html.ie8 .list_3 li {
 
     a.btn-primary {
         &:focus {
-            background: #92bb46;
+            background: #26BDEF;
             color: #fff;
         }
 
         &:hover {
             background: #fff;
-            color: #92bb46;
+            color: #076896;
         }
     }
 }
@@ -5451,7 +5468,7 @@ html.ie8 .list_3 li {
 }
 
 a.btn-primary {
-    background: #92bb46;
+    background: #26BDEF;
     display: inline-block;
     margin: 0;
     padding: 9px 20px 9px 20px;
@@ -5469,14 +5486,14 @@ a.btn-primary {
     vertical-align: top;
     letter-spacing: 1.5px;
     line-height: 18px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     text-shadow: none;
     text-transform: uppercase;
     color: #fff;
 
     &:focus {
-        background: #92bb46;
+        background: #26BDEF;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
@@ -5523,7 +5540,7 @@ a.btn-primary {
     p {
         margin: 0 0 27px 0;
         line-height: 24px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
         color: #bebebe;
     }
@@ -5744,7 +5761,7 @@ html.ie8 .banner-wrap h5 {
 .banner-wrap {
     h5 em {
         font-style: normal;
-        color: #9ec851;
+        color: #26BDEF;
     }
 
     p {
@@ -5820,7 +5837,7 @@ div.testimonials .testi-item {
         -moz-border-radius: 0;
         border-radius: 0;
         line-height: 24px;
-        font-size: 13px;
+        font-size: 14px;
         color: #797979;
 
         &:before, &:after {
@@ -5847,7 +5864,7 @@ div.testimonials .testi-item {
         overflow: hidden;
         padding: 14px 0 0 0;
         line-height: 20px;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Noto Serif', serif;
         font-size: 18px;
         font-weight: 700;
         text-transform: uppercase;
@@ -5900,14 +5917,21 @@ div.testimonials .testi-item {
         overflow: visible;
     }
 }
-
+.content_box--inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
 .service-box {
     background: #4f4c67;
-    margin: 18px 0 32px 0;
+    margin: 18px;
     padding: 0;
     border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
+    width: 240px;
+    height: 240px;
     border-radius: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -5920,7 +5944,7 @@ div.testimonials .testi-item {
     }
 
     .service-box_body {
-        padding: 37px 35px 0 35px;
+        padding: 15px 15px 0;
     }
 }
 
@@ -5960,14 +5984,14 @@ html.ie8 .service-box .service-box_body {
 
             &:hover {
                 text-decoration: none;
-                color: #92bb46;
+                color: #26BDEF;
             }
         }
     }
 
     .service-box_txt {
         line-height: 24px;
-        font-size: 13px;
+        font-size: 14px;
         color: #7e7d83;
     }
 }
@@ -6000,28 +6024,28 @@ html.ie8 .service-box .service-box_body .service-box_txt {
 .service-box {
     .flip-container, .front, .back {
         width: 100%;
-        height: 216px;
+        height: 100%;
     }
 }
 
 @media (min-width: 980px) and (max-width: 1200px) {
     .service-box {
         .flip-container, .front, .back {
-            height: 177px;
+      height: 100%;
         }
     }
 }
 
 html.ie8 .service-box {
     .flip-container, .front, .back {
-        height: 177px;
+      height: 100%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
     .service-box {
         .flip-container, .front, .back {
-            height: 133px;
+          height: 100%;
         }
     }
 }
@@ -6082,7 +6106,7 @@ html.ie8 .service-box {
             }
 
             .nsu-error {
-                color: #92bb46;
+                color: #26BDEF;
                 position: absolute;
                 top: 52px;
                 right: 0;
@@ -6109,7 +6133,7 @@ html.ie8 .service-box {
             float: none;
             padding: 8px 0 0 0;
             line-height: 18px;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 700;
             text-align: left;
             text-transform: uppercase;
@@ -6126,7 +6150,7 @@ html.ie8 .service-box {
 
                 &:hover {
                     text-decoration: none;
-                    color: #92bb46;
+                    color: #26BDEF;
                 }
             }
 
@@ -6298,7 +6322,7 @@ html.ie8 .service-box {
             }
 
             span {
-                background-color: #92bb46;
+                background-color: #26BDEF;
                 margin: 0;
             }
         }
@@ -6334,7 +6358,7 @@ html.ie8 .service-box {
             padding: 0;
             list-style: none;
             line-height: 18px;
-            font-size: 13px;
+            font-size: 14px;
             text-shadow: none;
             color: #9e9e9e;
 
@@ -6343,13 +6367,13 @@ html.ie8 .service-box {
 
                 &:after {
                     line-height: 18px;
-                    font-size: 13px;
+                    font-size: 14px;
                     color: #9e9e9e;
                 }
             }
 
             &.active {
-                color: #74a814;
+                color: #26BDEF;
             }
 
             a {
@@ -6364,7 +6388,7 @@ html.ie8 .service-box {
 
                 &:hover {
                     text-decoration: none;
-                    color: #74a814;
+                    color: #26BDEF;
                 }
             }
         }
@@ -6386,7 +6410,7 @@ article.post h3 {
 
 .post_meta {
     i {
-        color: #92bb46;
+        color: #26BDEF;
     }
 
     a {
@@ -6458,14 +6482,14 @@ ol.comment-list li .comment-body {
     .author {
         padding: 8px 0 0 0;
         line-height: 18px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
         text-align: left;
-        color: #92bb46;
+        color: #26BDEF;
     }
 
     .reply a {
-        background: #92bb46;
+        background: #26BDEF;
         display: inline-block;
         margin: 0;
         padding: 9px 20px 9px 20px;
@@ -6483,14 +6507,14 @@ ol.comment-list li .comment-body {
         vertical-align: top;
         letter-spacing: 1.5px;
         line-height: 18px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 700;
         text-shadow: none;
         text-transform: uppercase;
         color: #fff;
 
         &:focus {
-            background: #92bb46;
+            background: #26BDEF;
             -webkit-box-shadow: none;
             -moz-box-shadow: none;
             box-shadow: none;
@@ -6515,8 +6539,8 @@ ol.comment-list li .comment-body {
     }
 
     .comment-meta {
-        font-size: 13px;
-        color: #92bb46;
+        font-size: 14px;
+        color: #26BDEF;
     }
 }
 
@@ -6616,7 +6640,7 @@ html.ie8 #commentform input[type="submit"] {
         padding: 9px 20px 9px 20px;
         vertical-align: top;
         line-height: 18px;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 700;
         text-shadow: none;
         text-transform: uppercase;
@@ -6633,11 +6657,11 @@ html.ie8 #commentform input[type="submit"] {
             padding: 0 0 0 1px;
 
             &.active a {
-                background: #92bb46;
+                background: #26BDEF;
                 color: #fff;
 
                 &:focus, &:hover {
-                    background: #92bb46;
+                    background: #26BDEF;
                     color: #fff;
                 }
             }
@@ -6661,7 +6685,7 @@ html.ie8 #commentform input[type="submit"] {
                 vertical-align: top;
                 letter-spacing: 1.5px;
                 line-height: 18px;
-                font-size: 13px;
+                font-size: 14px;
                 font-weight: 700;
                 text-shadow: none;
                 text-transform: uppercase;
@@ -6680,7 +6704,7 @@ html.ie8 #commentform input[type="submit"] {
                 }
 
                 &:hover {
-                    background: #92bb46;
+                    background: #26BDEF;
                     -webkit-box-shadow: none;
                     -moz-box-shadow: none;
                     box-shadow: none;
@@ -6751,7 +6775,7 @@ html.ie8 #commentform input[type="submit"] {
     }
 
     .caption {
-        background: #92bb46;
+        background: #26BDEF;
         padding: 14px 14px 14px 14px;
         text-align: center;
         color: #fff;
@@ -6810,7 +6834,7 @@ ul.pager {
 
 .error404-holder {
     .error404-holder_num {
-        color: #92bb46;
+        color: #26BDEF;
     }
 
     h1, h2 {
@@ -6826,7 +6850,7 @@ ul.pager {
         font-size: 16px;
         font-weight: 400 !important;
         text-transform: none;
-        color: #92bb46;
+        color: #26BDEF;
     }
 }
 
@@ -6863,6 +6887,18 @@ html[data-useragent*='MSIE 10.0'] .flip-container {
 }
 
 .flip-container {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+&:hover , &.hover {
+
+  background: #fff;
+ }
+
+
     &:hover .flipper, &.hover .flipper {
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -6904,6 +6940,8 @@ html[data-useragent*='MSIE 10.0'] .flip-container {
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    width: 240px;
+    height: 240px;
 }
 
 .front, .back {
@@ -7068,7 +7106,7 @@ html[data-useragent*='MSIE 10.0'] .back {
                 margin: 0 0 22px 0;
                 vertical-align: top;
                 line-height: 48px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Noto Serif', serif;
                 font-size: 48px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -7104,7 +7142,7 @@ html[data-useragent*='MSIE 10.0'] .back {
                 margin: 0 0 9px 0;
                 letter-spacing: 3px;
                 line-height: 40px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Noto Serif', serif;
                 font-size: 40px;
                 font-weight: 700;
                 font-style: normal;
@@ -7117,7 +7155,7 @@ html[data-useragent*='MSIE 10.0'] .back {
                 margin: 0;
                 padding: 0 0 37px 0;
                 line-height: 20px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Noto Serif', serif;
                 font-size: 15px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -7135,7 +7173,7 @@ html[data-useragent*='MSIE 10.0'] .back {
 
                 &:hover {
                     text-decoration: none;
-                    color: #92bb46;
+                    color: #26BDEF;
                 }
             }
         }
@@ -7299,7 +7337,7 @@ html[data-useragent*='MSIE 10.0'] .back {
             display: block;
             position: relative;
             z-index: 1;
-            background: #92bb46;
+            background: #26BDEF;
             -webkit-transition: all 0.3s ease;
             -moz-transition: all 0.3s ease;
             -o-transition: all 0.3s ease;
@@ -7395,7 +7433,7 @@ html[data-useragent*='MSIE 10.0'] .back {
                 display: inline-block;
                 margin: 3px;
                 border-radius: 10px;
-                border: 2px solid #92bb46;
+                border: 2px solid #26BDEF;
                 cursor: pointer;
                 -webkit-transition: all 0.5s ease;
                 -moz-transition: all 0.5s ease;
@@ -7420,7 +7458,7 @@ html[data-useragent*='MSIE 10.0'] .back {
         margin-top: -25px;
         border-radius: 25px;
         z-index: 99;
-        background: url(../img/spinner.gif) 50% 50% no-repeat #92bb46;
+        background: url(../img/spinner.gif) 50% 50% no-repeat #26BDEF;
     }
 }
 

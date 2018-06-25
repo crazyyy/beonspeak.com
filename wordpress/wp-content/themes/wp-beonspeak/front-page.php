@@ -3,23 +3,26 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <div class="motopress-wrapper content-holder clearfix">
 
+    <?php if( have_rows('slider') ): ?>
       <div id="parallax-slider-5af3de9172cb7" class="parallax-slider">
         <ul class="baseList">
-
-          <li data-preview="<?php echo get_template_directory_uri(); ?>/img/slide_parallax_1.jpg" data-img-width="1600" data-img-height="691">
+          <?php while( have_rows('slider') ): the_row();
+            $slider_string_1 = get_sub_field('slider_string_1');
+            $slider_string_2 = get_sub_field('slider_string_2');
+            $slider_string_3 = get_sub_field('slider_string_3');
+            $image = get_sub_field('image');
+          ?>
+          <li data-preview="<?php echo $image['url']; ?>" data-img-width="1600" data-img-height="691">
             <div class="slider_caption>">
-              <strong><a href="risus-suscipit-seduis-egestas-consequat-aliquam/mauris-posuere">Бесплатный пробный период</a></strong>
-              <em>в течении которого вы поймете что </em>
-              <em>мы именно те, кто поможет вам выучить английский</em>
+              <strong><?php echo $slider_string_1; ?></strong>
+              <em><?php echo $slider_string_2; ?></em>
+              <em><?php echo $slider_string_3; ?></em>
             </div>
           </li>
-
-          <li data-preview="<?php echo get_template_directory_uri(); ?>/img/slide_parallax_1.jpg" data-img-width="1600" data-img-height="691"><div class="slider_caption>"><strong><a href="risus-suscipit-seduis-egestas-consequat-aliquam/mauris-posuere">YOUR KNOWLEDGE</a></strong>
-          <em>is the way to your success!</em>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-          </li>
+          <?php endwhile; ?>
         </ul>
       </div>
+    <?php endif; ?>
 
       <div class="container">
         <div class="row">
@@ -28,103 +31,157 @@
               <div class="span12">
                 <div id="post-203" class="page type-page status-publish hentry page">
                   <!-- .row (end) -->
+                  <?php if( have_rows('squads') ): ?>
                   <div class="content_box  ">
                     <div class="row ">
-                      <div class="span6 ">
-                        <section class="lazy-load-box trigger effect-slidefromleft ">
-                          <div class="hero-unit ">
-                            <h1>Beonspeak это место, где <em>ГОВОРЯТ</em> на английском языке</h1>
-                            <p>Почему мы? Потому что мы с удовольствием помогаем людям найти общий язык. У нас в этом большой опыт!</p>
-                            <div class="btn-align"><a href="#" title="read More" class="btn btn-primary btn-normal btn-primary" target="_self">read More</a></div>
-                          </div>
-                          <!-- .hero-unit (end) -->
-                          <div class="hero-unit ">
-                            <h3>Только необходимое! </h3>
-                            <p>Важно не учить, а выучить и применять. Английский путешественника отличается от английского бизнесмена, ведущего переговоры. Наши программы отвечают именно вашим потребностям в английском языке.</p>
-                            <div class="btn-align"><a href="#" title="read More" class="btn btn-primary btn-normal btn-primary" target="_self">read More</a></div>
-                          </div>
-                          <!-- .hero-unit (end) -->
-                        </section>
-                      </div>
-                      <div class="span3 ">
-                        <section class="lazy-load-box trigger effect-fade " data-delay="600">
+
+                      <div class="span12">
+                        <section class="lazy-load-box trigger effect-fade content_box--inner" data-delay="600">
+                          <?php while( have_rows('squads') ): the_row();
+                            // vars
+                            $image = get_sub_field('image');
+                            $title = get_sub_field('title');
+                            $link = get_sub_field('link');
+                            $descr = get_sub_field('descr');
+
+                            ?>
                           <div class="service-box ">
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                               <div class="flipper">
                                 <div class="front">
-                                  <figure class="icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon1.png" alt=""></figure>
+                                  <h2 class="title"><a href="<?php echo $link; ?>" title="" target="_self"><?php echo $title; ?></a></h2>
                                 </div>
                                 <div class="back">
                                   <div class="service-box_body">
-                                    <h2 class="title"><a href="quisque-eu-quam-ac-dui-luctus-consectetur/phasellus-fringilla" title="" target="_self">Общение с Иностранцами</a></h2>
-                                    <div class="service-box_txt">Общение с иностранцами начинается по решению преподавателя. И общение это происходит очень скоро!</div>
+                                    <div class="service-box_txt">
+                                      <?php echo $descr; ?>
+                                      <button class="call-me">Заказать звонок</button>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                           <!-- /Service Box -->
-                          <div class="service-box ">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                              <div class="flipper">
-                                <div class="front">
-                                  <figure class="icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon3.png" alt=""></figure>
-                                </div>
-                                <div class="back">
-                                  <div class="service-box_body">
-                                    <h2 class="title"><a href="aenean-vel-tempus-metus-suspendisse-potenti/vivamus-vel-sem-at" title="" target="_self">Платите уверенно</a></h2>
-                                    <div class="service-box_txt">Начните свое обучение у нас с недельного бесплатного пробного периода. Вы оплачиваете курс, убедившись, что именно мы способны помочь Вам.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /Service Box -->
-                        </section>
-                      </div>
-                      <div class="span3 ">
-                        <section class="lazy-load-box trigger effect-slidefromright " data-delay="400">
-                          <div class="service-box ">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                              <div class="flipper">
-                                <div class="front">
-                                  <figure class="icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon2.png" alt=""></figure>
-                                </div>
-                                <div class="back">
-                                  <div class="service-box_body">
-                                    <h2 class="title"><a href="proin-a-dolor-vel-lorem-hendrerit-dictum/etiam-commodo-convallis" title="" target="_self">Phasellus</a></h2>
-                                    <div class="service-box_txt">Cras urna risus, ornare a felis ornare, egestas dignissim lacus. Donec convallis odio non enim aliquet, nec venenatis.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /Service Box -->
-                          <div class="service-box ">
-                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                              <div class="flipper">
-                                <div class="front">
-                                  <figure class="icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icon4.png" alt=""></figure>
-                                </div>
-                                <div class="back">
-                                  <div class="service-box_body">
-                                    <h2 class="title"><a href="nam-leo-est-praesent-vestibulum-molestie-lacus/lorem-ipsum-dolor-sit" title="" target="_self">Мы ценим Ваше время</a></h2>
-                                    <div class="service-box_txt">Онлайн занятия позволяют значительно сэкономить время, уделив его обучению. Мы можем заниматься где угодно и когда угодно, главное - Интернет и желание.</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- /Service Box -->
+                          <?php endwhile; ?>
                         </section>
                       </div>
                     </div>
                     <!-- .row (end) -->
                     <div class="clear"></div>
+                  </div><!-- .content_box (end) -->
+                <?php endif; ?>
+                  <div class="home-verticals spacer">
+
+                    <div class="row">
+                      <div class="span12">
+                        <h3 class="home-verticals--title">Наши преимущества</h3>
+                        <div class="home-verticals--descr">Каждая неделя состоит из двух дней работы по 4 часа в день (субота и воскресенье)</div>
+                      </div><!-- /.span12 -->
+                    </div><!-- /.row -->
+
+
+                    <div class="row home-verticals--item home-verticals--item-1">
+                      <div class="span6 home-verticals--left">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_1'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_1'); ?></h5>
+                          <p><?php the_field('advantages_description_1'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_1'); echo $image['url']; ?>" alt="">
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-2">
+                      <div class="span6 home-verticals--left">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_2'); echo $image['url']; ?>" alt="">
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_2'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_2'); ?></h5>
+                          <p><?php the_field('advantages_description_2'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-3">
+                      <div class="span6 home-verticals--left">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_3'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_3'); ?></h5>
+                          <p><?php the_field('advantages_description_3'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_3'); echo $image['url']; ?>" alt="">
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-4">
+                      <div class="span6 home-verticals--left">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_4'); echo $image['url']; ?>" alt="">
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_4'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_4'); ?></h5>
+                          <p><?php the_field('advantages_description_4'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-5">
+                      <div class="span6 home-verticals--left">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_5'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_5'); ?></h5>
+                          <p><?php the_field('advantages_description_5'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_5'); echo $image['url']; ?>" alt="">
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-6">
+                      <div class="span6 home-verticals--left">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_6'); echo $image['url']; ?>" alt="">
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_6'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_6'); ?></h5>
+                          <p><?php the_field('advantages_description_6'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row home-verticals--item home-verticals--item-7">
+                      <div class="span6 home-verticals--left">
+                        <div class="hv--content">
+                          <h4><?php the_field('advantages_title_7'); ?></h4>
+                          <h5><?php the_field('advantages_subtitle_7'); ?></h5>
+                          <p><?php the_field('advantages_description_7'); ?></p>
+                          <button class="order-discount">Записатся со скидкой</button>
+                        </div>
+                      </div>
+                      <div class="span6 home-verticals--right">
+                        <img class="hv--image" src="<?php $image = get_field('advantages_image_7'); echo $image['url']; ?>" alt="">
+                      </div>
+                    </div>
+
                   </div>
-                  <!-- .content_box (end) -->
-                  <div class="spacer"></div>
                   <!-- .spacer (end) -->
+				     <?php /* ?>
                   <div class="row ">
                     <div class="span12 ">
                       <section class="lazy-load-box trigger effect-fade ">
@@ -139,6 +196,7 @@
                     </div>
                   </div>
                   <!-- .row (end) -->
+				     <?php */ ?>
                   <div class="clear"></div>
                   <!--.pagination-->
                 </div>

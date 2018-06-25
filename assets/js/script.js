@@ -115,8 +115,8 @@ jQuery(function() {
       parallaxEffect: isparallax,
       duration: 1500,
       autoSwitcher: true,
-      autoSwitcherDelay: 7000,
-      slider_navs: false,
+      autoSwitcherDelay: 15000,
+      slider_navs: true,
       slider_pagination: true
     });
   }
@@ -172,3 +172,43 @@ $(document).ready(function() {
     });
   }
 });
+
+
+$(document).ready(function() {
+  $('.modal-close').on('click', function(e) {
+    CloseModal()
+  })
+  $('.modal-bg').on('click', function(e) {
+    CloseModal()
+  })
+  $('.modal-container').on('click', function(e) {
+    e.stopPropagation();
+  })
+
+  $('.call-me').on('click', function(e) {
+    e.stopPropagation();
+    var content = $(this).parent().parent().find('h2 a').html();
+    OpenModal(content);
+    $('.modal-bg').addClass('modal-bg--opened').addClass('modal-recall');
+  })
+
+  $('.order-discount').on('click', function(e) {
+    e.stopPropagation();
+    var content = $(this).parent().find('h4').html();
+    OpenModal(content);
+    $('.modal-bg').addClass('modal-bg--opened').addClass('modal-recall');
+  })
+
+});
+
+function CloseModal() {
+  $('.modal-bg').attr('class', '').addClass('modal-bg');
+  $('body').removeClass('modal-opened');
+}
+
+function OpenModal(content) {
+  $('body').addClass('modal-opened');
+  $('.modal-container h6').html(content);
+  $('.modal-container .input-hidden').val(content);
+}
+

@@ -1,3 +1,16 @@
+    <div class="motopress-wrapper footer-register">
+      <div class="container">
+        <div class="row">
+          <div class="span12 ">
+            <h6>Регистрация на бесплатный мастер-клас</h6>
+            <p>Оставьте запрос в форме ниже, если Вы хотите попасть на мастер-класс, поскольку количество мест ограничено</p>
+            <?php echo do_shortcode('[contact-form-7 id="1801" title="Футер"]'); ?>
+          </div>
+          <!-- /.span12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.motopress-wrapper footer-register -->
+
     <footer class="motopress-wrapper footer">
       <div class="container">
         <div class="row">
@@ -23,6 +36,7 @@
       </div>
     </footer>
     <!--End #motopress-main-->
+
   </div>
 
   <div id="back-top-wrapper" class="visible-desktop">
@@ -30,10 +44,17 @@
       <a href="#top"><span></span></a></p>
   </div>
 
+  <div class="modal-bg">
+    <div class="modal-container">
+      <h6></h6>
+      <?php echo do_shortcode('[contact-form-7 id="1758" title="Модальная форма"]'); ?>
+    </div><!-- /.modal-container -->
+    <span class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+  </div><!-- /.modal-bg -->
+
   <?php wp_footer(); ?>
 
   <script src="<?php echo get_template_directory_uri(); ?>/js/parallaxslider.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/smoothing-scroll.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate-1.2.1.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/swfobject.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.js"></script>
@@ -59,10 +80,10 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.debouncedresize.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.ba-resize.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.isotope.js"></script>
-
   <script src="<?php echo get_template_directory_uri(); ?>/js/cherry-plugin.js"></script>
-
   <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+
+
 
 </body>
 </html>

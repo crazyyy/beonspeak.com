@@ -17,6 +17,10 @@
           <?php if (have_posts()): while (have_posts()) : the_post(); ?>
             <div id="content" class="row">
               <div class="span12">
+                <div class="post_content">
+                  <?php the_content(); ?>
+                  <div class="clear"></div>
+                </div>
                 <?php $posts = get_field('courses'); if( $posts ): ?>
                   <ul id="portfolio-grid" class="filterable-portfolio thumbnails portfolio-3cols isotope" data-cols="3cols">
                     <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
@@ -46,7 +50,6 @@
                   </ul>
                   <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                 <?php endif; ?>
-
               </div>
             </div>
           <?php endwhile; endif; ?>
