@@ -13,7 +13,56 @@
             </div>
           </div>
           <div class="row">
-            <div class="span8 right right" id="content">
+
+              <div class="span12">
+                <div id="post-203" class="page type-page status-publish hentry page">
+                  <!-- .row (end) -->
+                  <?php if( have_rows('squads', 1564) ): ?>
+                  <div class="content_box  ">
+                    <div class="row ">
+
+                      <div class="span12">
+                        <section class="lazy-load-box trigger effect-fade content_box--inner" data-delay="600">
+                          <?php while( have_rows('squads', 1564) ): the_row();
+                            // vars
+                            $image = get_sub_field('image');
+                            $title = get_sub_field('title');
+                            $link = get_sub_field('link');
+                            $descr = get_sub_field('descr');
+
+                            ?>
+                          <div class="service-box ">
+                            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                              <div class="flipper">
+                                <div class="front">
+                                  <h2 class="title"><a href="<?php echo $link; ?>" title="" target="_self"><?php echo $title; ?></a></h2>
+                                </div>
+                                <div class="back">
+                                  <div class="service-box_body">
+                                    <div class="service-box_txt">
+                                      <?php echo $descr; ?>
+                                      <button class="call-me">Заказать звонок</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /Service Box -->
+                          <?php endwhile; ?>
+                        </section>
+                      </div>
+                    </div>
+                    <!-- .row (end) -->
+                    <div class="clear"></div>
+                  </div><!-- .content_box (end) -->
+                <?php endif; ?>
+              </div>
+            </div>
+
+            <?php /* ?>
+
+            <div class="span12 right right" id="content">
               <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                 <!-- Post Content -->
@@ -41,10 +90,9 @@
                 </div>
                 <!--// Post Meta -->
               </article>
-
             </div>
 
-            <?php get_sidebar(); ?>
+            <?php */ ?>
 
           </div>
         </div>
