@@ -25,6 +25,7 @@
                     <!-- //Post Content -->
 
                   </article>
+				  <?php /* comments_template(); */ ?>
 
                 </div>
                 <?php get_sidebar(); ?>

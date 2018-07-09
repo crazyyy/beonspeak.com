@@ -433,7 +433,7 @@ function easy_breadcrumbs() {
   $separator          = ' / ';
   $breadcrums_id      = 'breadcrumb';
   $breadcrums_class   = 'breadcrumb breadcrumb__t';
-  $home_title         = __('Home', 'wpeasy');
+  $home_title         = 'Главная';
 
   // If you have any custom post types with custom taxonomies, put the taxonomy name below (e.g. product_cat)
   $custom_taxonomy    = 'categories';

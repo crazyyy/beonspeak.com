@@ -45,6 +45,8 @@
                     </div>
                     <!--// Post Meta -->
                   </article>
+				  
+				  <?php  comments_template(); ?>
 
                 </div>
 

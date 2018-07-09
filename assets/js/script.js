@@ -187,7 +187,7 @@ $(document).ready(function() {
 
   $('.call-me').on('click', function(e) {
     e.stopPropagation();
-    var content = $(this).parent().parent().find('h2 a').html();
+    var content = $(this).parent().parent().parent().parent().find('h2 a').html();
     OpenModal(content);
     $('.modal-bg').addClass('modal-bg--opened').addClass('modal-recall');
   })
@@ -199,10 +199,83 @@ $(document).ready(function() {
     $('.modal-bg').addClass('modal-bg--opened').addClass('modal-recall');
   })
 
+  /** tracking code */
+  $('.zopim').on('click', function(e) {
+    console.log('click bottom button');
+    ga('send', 'event', { eventCategory: '/', eventAction: '#sent_messege', eventLabel: '#sent_messege'});
+  })
+  $('.meshim_widget_widgets_Bottom input[type=submit]').on('click', function(e) {
+    console.log('click bottom form submit');
+    ga('send', 'event', { eventCategory: '/', eventAction: '#sent_messege_submit', eventLabel: '#sent_messege_submit'});
+  })
+
+  $('.service-box').each(function(index, el) {
+    var $button = $(this).find('a');
+    if (index == 0 ) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#personal'});")
+    } else if (index == 1) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#pair});")
+    } else if (index == 2) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#personal_intensive'});")
+    } else if (index == 3) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#pair_intensive'});")
+    } else if (index == 4) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#with'});")
+    } else if (index == 5) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#programm', eventLabel: '#club'});")
+    }
+  });
+
+  $('.order-discount').each(function(index, el) {
+    var $button = $(this);
+    if (index == 0 ) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#seamlessly_implement', eventLabel: '#form'});");
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#seamlessly_implement', eventLabel: '#submit'});");
+      })
+    } else if (index == 1) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#professionally_negotiate', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#professionally_negotiate', eventLabel: '#submit'});");
+      })
+    } else if (index == 2) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#conveniently_re-engineer', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#conveniently_re-engineer', eventLabel: '#submit'});");
+      })
+    } else if (index == 3) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#conveniently_se', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#conveniently_se', eventLabel: '#submit'});");
+      })
+    } else if (index == 4) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#compellingly_optimize', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#compellingly_optimize', eventLabel: '#submit'});");
+      })
+    } else if (index == 5) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#e-enable', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#e-enable', eventLabel: '#submit'});");
+      })
+    } else if (index == 6) {
+      $button.attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#one-to-one', eventLabel: '#form'});")
+      $button.on('click', function(e){
+        $('.modal-container input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#one-to-one', eventLabel: '#submit'});");
+      })
+    }
+
+  })
+
+  $('#wpcf7-f1801-o1 input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#masters', eventLabel: '#submit'});");
+  $('#wpcf7-f1739-p162-o1 input[type=submit]').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#contacts', eventLabel: '#submit'});");
+  $('.sumome-react-wysiwyg-move-handle button').attr("onClick", "ga('send', 'event', { eventCategory: '/', eventAction: '#popup', eventLabel: '#submit'});");
+
 });
 
 function CloseModal() {
   $('.modal-bg').attr('class', '').addClass('modal-bg');
+  $('.modal-bg').find('input[type=submit]').attr('onClick', '');
   $('body').removeClass('modal-opened');
 }
 

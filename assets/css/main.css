@@ -17758,7 +17758,7 @@ nav.footer-nav a {
 }
 
 .modal-bg .modal-close:hover {
-  color: #01ff01;
+  color: #403d5a;
 }
 
 .modal-bg .modal-container {
@@ -17769,6 +17769,7 @@ nav.footer-nav a {
   text-align: center;
   font-size: 24px;
   line-height: 1.4;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin-bottom: 15px;
 }
 
